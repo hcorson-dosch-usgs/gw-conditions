@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <!--  <HeaderUSWDSBanner /> -->
+    <HeaderUSWDSBanner />
     <HeaderUSGS />
     <InternetExplorerPage v-if="isInternetExplorer" />
     <!-- an empty string in this case means the 'prod' version of the application   -->
@@ -20,7 +20,7 @@
         components: {
             HeaderUSGS,
             InternetExplorerPage: () => import( /* webpackPrefetch: true */ /*webpackChunkName: "internet-explorer-page"*/ "./components/InternetExplorerPage"),
-            //HeaderUSWDSBanner: () => import( /* webpackPrefetch: true */ /*webpackChunkName: "header-uswds-banner"*/ "./components/HeaderUSWDSBanner"),
+            HeaderUSWDSBanner: () => import( /* webpackPrefetch: true */ /*webpackChunkName: "header-uswds-banner"*/ "./components/HeaderUSWDSBanner"),
             //PreFooterVisualizationsLinks: () => import( /* webpackPrefetch: true */ /*webpackChunkName: "pre-footer-links-visualizations"*/ "./components/PreFooterVisualizationsLinks"),
             PreFooterCodeLinks: () => import( /* webpackPrefetch: true */ /*webpackChunkName: "pre-footer-links-code"*/ "./components/PreFooterCodeLinks"),
             FooterUSGS: () => import( /* webpackPrefetch: true */ /*webpackChunkName: "usgs-footer"*/ "./components/FooterUSGS") // Have Webpack put the footer in a separate chunk so we can load it conditionally (with a v-if) if we desire
