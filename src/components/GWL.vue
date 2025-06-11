@@ -121,10 +121,10 @@
           class="text-content"
         >
           <a
-            href="https://www.usgs.gov/media/videos/us-river-conditions-july-september-2022"
+            href="https://www.usgs.gov/media/videos/us-river-conditions-january-march-2025"
             target="_blank"
           >See the latest U.S. River Conditions</a> and other <a
-            href="https://labs.waterdata.usgs.gov/visualizations/vizlab-home/index.html?utm_source=viz&utm_medium=link&utm_campaign=gw_conditions#/"
+            href="https://labs.waterdata.usgs.gov/visualizations/index.html?utm_source=viz&utm_medium=link&utm_campaign=gw_conditions#/"
             target="_blank"
           >data visualizations from the USGS VizLab
           </a>
